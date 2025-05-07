@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #FCF8CA;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3.125rem;
+}
+
+.login-box {
+    background-color: white;
+    width: 100%;
+    max-width: 31.25rem;
+    padding: 2.5rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.t-area1 {
+    text-align: center;
+}
+
+.t-area2 {
+    text-align: left;
+    width: 100%;
+    line-height: 1.875rem;
+}
+
+.user-box {
+    border-radius: 25px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&display=swap');
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.083333333333335vw;
+}
+.dm-sans-700v {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.0416666666666667vw;
+    padding-top: 10px;
+}
+
+.dm-sans-fonts {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.0416666666666667vw;
+    padding-top: 10px;
+}
+.fa-eye-slash{
+    position: absolute;
+    top: 60%;
+    right: 0;
+    min-width: 50px;
+}
+.google.icon{
+    display: flex;
+    flex-direction: row;
+    /* top: 85%;
+    left: 42%;
+    min-width: 50px; */
+}
+.google.iconv2{
+    position: absolute;
+    top: 122.3%;
+    left: 42%;
+    min-width: 50px;
+}
+.btn {
+    width: 100%;
+    padding: 12px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+.btn.masuk {
+    background-color: #22c55e;
+    color: white;
+}
+.btn.daftar {
+    background-color: #E2FCD9CC;
+    color: #22c55e;
+}
+.divider {
+    position: relative;
+    text-align: center;
+    margin: 24px 0;
+    height: 20px;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    background-color: #D9D9D9;
+  }
+  
+  .divider::before {
+    left: 0;
+  }
+  
+  .divider::after {
+    right: 0;
+  }
+  
+  .divider span {
+    background-color: white; /* ganti sesuai background parent */
+    padding: 0 10px;
+    color: #888888;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .btn.google {
+    background-color: #FFFFFF;
+    border: #F1F1F1 solid 1px;
+    color: #333333AD;
+}
